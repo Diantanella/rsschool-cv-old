@@ -101,6 +101,12 @@ a.active {
 
 ---
 
+##### Projects
+
+[This CV](https://github.com/Diantanella/rsschool-cv.git)
+
+---
+
 ##### Education
 
 University:
@@ -109,10 +115,6 @@ Courses:
 _1. Java Script (author Bogdan Stashchuk) - completed 2. HTML Academy (HTML + CSS) - completed 3. FreeCodeCamp 4. RS Schools Course «JavaScript/Front-end. Stage 0» - in progress_
 
 ---
-
-##### Projects
-
-[This CV](https://github.com/Diantanella/rsschool-cv.git)
 
 ##### Languages
 
