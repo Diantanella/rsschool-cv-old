@@ -8,7 +8,7 @@
 
 ---
 
-#####Contact information
+##### Contact information
 
 - **Phone:** +90(507)831-29-20
 - **Telegram:** @diantanella
@@ -38,7 +38,8 @@ I think that my purposefulness and my huge ability to learn will help me to beco
 
 ---
 
-#####Code example
+##### Code example
+
 HTML:
 
 ```
