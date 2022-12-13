@@ -12,6 +12,7 @@
 
 - **Phone:** +90(507)831-29-20
 - **Telegram:** @diantanella
+- **Discord:** @diantanella
 - **Location:** Turkey, Izmir
 - **Email:** novikovadv@bk.ru
 - **GitHub:** [Diantanella](https://github.com/Diantanella)
@@ -99,3 +100,21 @@ a.active {
 ```
 
 ---
+
+##### Education
+
+University:
+_The Kosygin State University of Russia (on the third course)_
+Courses:
+_1. Java Script (author Bogdan Stashchuk) - completed 2. HTML Academy (HTML + CSS) - completed 3. FreeCodeCamp 4. RS Schools Course «JavaScript/Front-end. Stage 0» - in progress_
+
+---
+
+##### Projects
+
+[This CV](https://github.com/Diantanella/rsschool-cv.git)
+
+##### Languages
+
+- Russian - native
+- English - B2 (upper-intermediate)
