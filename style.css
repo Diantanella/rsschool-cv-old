@@ -1,6 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #fff;
+
+  
 }
 
 .cv {
@@ -11,7 +13,7 @@ body {
 }
 
 .my_photo {
-  margin-top: 45px;
+  margin-top: 71px;
   border: 1px solid #000000;
   box-shadow: 1px 5px 10px 2px rgba(0, 0, 0, 0.35);
 }
@@ -19,13 +21,17 @@ body {
 .column {
   padding: 30px;
   float: left;
+  border: 1px solid red;
   background-color: #116062;
   color: #ffffff;
+  
 }
 
 .main_column {
   padding: 30px;
-  background-color: #ffffff;
+  border: 1px solid fuchsia;
+  
+  
 }
 
 div {
@@ -41,21 +47,46 @@ div {
 }
 
 .menu_item {
-  padding: 6px;
+  padding-top: 10px;
+  padding-left: 15px;
 }
 
+.li1 {
+  list-style: none;
+}
 a:link,
 a:visited {
   text-decoration: none;
   color: #ffffff;
 }
 
+.space {
+  width: 100%;
+  height: 30px;
+}
+
+.big_space {
+  height: 0;
+}
+
+.rss {
+  width: 60%;
+  height: 100px;
+  background: url("rs_school_js.svg") no-repeat center;
+}
 .underlined {
   width: 100%;
   height: 1px;
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: rgba(0, 0, 0, 0.212);
+}
+
+.underlined_white {
+  width: 97%;
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0.2;
 }
 
 h1 {
@@ -70,45 +101,159 @@ p {
   font-size: 20px;
 }
 
+pre {
+  font-size: 20px;
+}
+
+.sk {
+  font-size: 22px;
+  width: 130px;
+  float: left;
+  padding-left: 40px;
+}
+
+.contact {
+  padding-top: 14px;
+  padding-bottom: 5px;
+}
 .contact,
 .sk {
   list-style: none;
   margin-left: -20px;
-  font-size: 20px;
 }
 
 .number {
-  background: url("phone.png") no-repeat left;
+  background: url("photos/phone.png") no-repeat left;
   padding-left: 35px;
   margin-bottom: 10px;
 }
 
 .discord {
-  background: url("discord.png") no-repeat left;
+  background: url("photos/discord.png") no-repeat left;
   padding-left: 35px;
   margin-bottom: 10px;
 }
 
 .github {
-  background: url("github.png") no-repeat left;
+  background: url("photos/github.png") no-repeat left;
   padding-left: 35px;
   margin-bottom: 10px;
 }
 
 .email {
-  background: url("email.png") no-repeat left;
+  background: url("photos/email.png") no-repeat left;
   padding-left: 35px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
 .location {
-  background: url("icons8-маркер-места-20.png") no-repeat left;
+  background: url("photos/location.png") no-repeat left;
   padding-left: 35px;
   margin-bottom: 10px;
 }
 
 .code_example {
-  font-size: 20px;
   background-color: #e6e6e651;
+  font-size: 20px;
+}
+
+#about_me,
+#code,
+#education,
+#languages {
+  color: #116062;
+}
+
+ul {
+  font-size: 20px;
+}
+
+.grades {
+  overflow: hidden;
+
+  padding-top: 20px;
+}
+.grade_column {
+  float: right;
+  display: inline;
+  margin-top: 4.5px;
+  margin-bottom: 11px;
+}
+.yellow_circle {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #edd9a2;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.gray_circle {
+  background-color: #dad7d7;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.html {
+  background: url("photos/html.png") no-repeat left;
+  padding-left: 35px;
+}
+
+.css {
+  background: url("photos/css.png") no-repeat left;
+  padding-left: 35px;
+}
+
+.vs_code {
+  background: url("photos/vscode.png") no-repeat left;
+  padding-left: 35px;
+}
+
+.git {
+  background: url("photos/git.png") no-repeat left;
+  padding-left: 35px;
+}
+
+.js {
+  background: url("photos/js.png") no-repeat left;
+  padding-left: 35px;
+}
+
+.ul_footer {
+  height: 65px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  padding-top: 38px;
+}
+
+.github_link a:link,
+.github_link a:visited {
+  background: url("photos/github_yellow.png") no-repeat center;
+  padding: 30px;
+  margin-left: 100px;
+}
+
+.github_link a:hover {
+  background: url("photos/github_blue.png") no-repeat center;
+}
+
+.course_link a:link,
+.course_link a:visited {
+  background: url("photos/js_yellow.png") no-repeat center;
+  padding: 30px;
+  margin-left: 180px;
+}
+
+.course_link a:hover {
+  background: url("photos/js_blue.png") no-repeat center;
+}
+
+.year {
+  font-family: monospace;
+  font-size: 23px;
+  margin-left: 180px;
 }

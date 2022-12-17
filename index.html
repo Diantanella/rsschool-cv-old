@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main class="cv">
       <div class="column">
-        <section>
-          <img
+        <img
             class="my_photo"
-            src="diana.jpg"
+            src="photos/diana.jpg"
             alt="Diana Novikova"
-            width="300"
-          />
+            width="350">
+          <div class="space"></div>
           <article>
             <h2>CONTACTS</h2>
             <ul class="contact">
@@ -31,16 +30,72 @@
               <li class="location">Turkey, Izmir</li>
             </ul>
           </article>
+          <div class="underlined underlined_white"></div>
+          <div class="space"></div>
           <article>
             <h2 id="skills">SKILLS</h2>
             <ul class="sk">
-              <li>HTML5, CSS3</li>
-              <li>VS Code</li>
-              <li>Git</li>
-              <li>JavaScript (basic)</li>
+              <li class="html">HTML5</li>
+              <li class="css">CSS3</li>
+              <li class="vs_code">VS Code</li>
+              <li class="git">Git</li>
+              <li class="js">JavaScript</li>
             </ul>
           </article>
-        </section>
+          <div class="grades">
+            <div class="grade_column">
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+            </div>
+            <div class="grade_column">
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+            </div>
+            <div class="grade_column">
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+            </div>
+            <br>
+            <div class="grade_column">
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+            </div>
+            <div class="grade_column">
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+              <div class="yellow_circle gray_circle"></div>
+            </div>
+          </div>
+          <div class="underlined underlined_white"></div>
+          <div class="space"></div>
+          <article>
+            <h2 id="projects">Projects</h2>
+            <p>
+              <a
+                href="https://github.com/Diantanella/rsschool-cv/tree/gh-pages"
+                target="_blank"
+                >This CV</a
+              >
+            </p>
+          </article>
+          <div class="underlined underlined_white"></div>
+          <div class="space big_space"></div>
+
+       <div class="rss"></div>
       </div>
 
       <nav>
@@ -54,7 +109,7 @@
         </ul>
       </nav>
       <div class="main_column">
-        <section>
+        
           <h1>Diana Novikova</h1>
           <h2>Junior frontend developer</h2>
           <div class="underlined"></div>
@@ -77,36 +132,28 @@
           <div class="underlined"></div>
           <article>
             <h2 id="code">Code example</h2>
-            <code>
-              <pre class="code_example">
+            <code class="code_example">
  
-                
-                const sumOfPositiveNumbers (a,b) => {
-                if (typeof a !== 'number' || typeof b !== 'number') {
-                    return 'One of the arguments is not a number'
-            }
-            if (a<=0 || b<=0) {
-                return'Numbers are not positive'
-            }
-            return a+b
+                const sumOfPositiveNumbers (a,b) => { <br>
+                if (typeof a !== 'number' || typeof b !== 'number') { <br>
+                    return 'One of the arguments is not a number' <br>
+            } <br>
+            if (a&lt;=0 || b&lt;=0) { <br>
+                return'Numbers are not positive' <br>
+            } <br>
+            return a+b <br>
             } 
-            
-            </pre
-              >
             </code>
           </article>
           <div class="underlined"></div>
-          <article>
-            <h2 id="projects">Projects</h2>
-            <p>This CV</p>
-          </article>
+
           <article>
             <h2 id="education">Education</h2>
             <ul>
               <li>
                 University:
                 <ul>
-                  <li>
+                  <li class="li1">
                     The Kosygin State University of Russia (on the third course)
                   </li>
                 </ul>
@@ -125,6 +172,7 @@
               </li>
             </ul>
           </article>
+          <div class="underlined"></div>
           <article>
             <h2 id="languages">Languages</h2>
             <ul>
@@ -132,9 +180,19 @@
               <li>English - upper-intermediate</li>
             </ul>
           </article>
-        </section>
+        
+        <footer>
+          <ul class="ul_footer">
+            <li class="github_link">
+              <a href="https://github.com/Diantanella" target="blank"></a>
+            </li>
+            <li class="course_link">
+              <a href="https://rs.school/js/" target="_blank"></a>
+            </li>
+            <li class="year">2022</li>
+          </ul>
+        </footer>
       </div>
     </main>
-    <footer></footer>
   </body>
 </html>
