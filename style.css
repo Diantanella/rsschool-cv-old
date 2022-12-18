@@ -1,3 +1,264 @@
-h1 {
-  font-weight: bold;
-}
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .cv {
+    width: 80%;
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    box-shadow: 1px 70px 100px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .my_photo {
+    margin-top: 71px;
+    border: 1px solid #000000;
+    box-shadow: 1px 5px 10px 2px rgba(0, 0, 0, 0.35);
+  }
+
+  .column {
+    padding: 30px;
+    margin-bottom: 0;
+    display: table-cell;
+    background-color: #116062;
+    color: #ffffff;
+  }
+
+  .main_column {
+    padding: 30px;
+    vertical-align: top;
+    position: relative;
+    display: table-cell;
+    padding-bottom: 50px;
+  }
+
+  .menu {
+    margin: -30px -30px 0 -30px;
+    display: flex;
+    line-height: 4;
+    list-style: none;
+    background-color: #116062;
+  }
+
+  .menu_item {
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .li1 {
+    list-style: none;
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .space {
+    width: 100%;
+    height: 30px;
+  }
+
+  .rss {
+    width: 100%;
+    height: 120px;
+    background: url("photos/rs_school_js.svg") no-repeat center;
+  }
+  .underlined {
+    width: 100%;
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.212);
+  }
+
+  .underlined_white {
+    width: 97%;
+    margin: auto;
+    background-color: #ffffff;
+    opacity: 0.2;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  pre {
+    font-size: 20px;
+  }
+
+  .number {
+    padding-left: 35px;
+    margin-bottom: 10px;
+    background: url("photos/phone.png") no-repeat left;
+  }
+
+  .discord {
+    padding-left: 35px;
+    margin-bottom: 10px;
+    background: url("photos/discord.png") no-repeat left;
+  }
+
+  .github {
+    padding-left: 35px;
+    margin-bottom: 10px;
+    background: url("photos/github.png") no-repeat left;
+  }
+
+  .email {
+    padding-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background: url("photos/email.png") no-repeat left;
+  }
+
+  .location {
+    padding-left: 35px;
+    margin-bottom: 10px;
+    background: url("photos/location.png") no-repeat left;
+  }
+
+  #about_me,
+  #code,
+  #education,
+  #languages {
+    color: #116062;
+  }
+
+  .code_example {
+    font-size: 20px;
+    background-color: #e6e6e651;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+
+  .table {
+    width: 100%;
+    display: table;
+  }
+  .sk {
+    padding-left: 20px;
+    padding-top: 4px;
+    display: table-cell;
+    font-size: 20px;
+  }
+
+  .contact {
+    padding-top: 14px;
+    padding-bottom: 5px;
+  }
+  .contact,
+  .sk {
+    margin-left: -20px;
+    list-style: none;
+  }
+
+  .grade_column {
+    padding-top: 6px;
+    display: table-cell;
+  }
+  .grade_row {
+    padding-left: 40px;
+    line-height: 2.1;
+  }
+  .yellow_circle {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background-color: #edd9a2;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  .gray_circle {
+    background-color: #dad7d7;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .prj {
+    padding-left: 50px;
+    font-size: 25px;
+  }
+
+  .html {
+    padding-left: 35px;
+    background: url("photos/html.png") no-repeat left;
+  }
+
+  .css {
+    padding-left: 35px;
+    background: url("photos/css.png") no-repeat left;
+  }
+
+  .vs_code {
+    padding-left: 35px;
+    background: url("photos/vscode.png") no-repeat left;
+  }
+
+  .git {
+    padding-left: 35px;
+    background: url("photos/git.png") no-repeat left;
+  }
+
+  .js {
+    padding-left: 35px;
+    background: url("photos/js.png") no-repeat left;
+  }
+
+  footer {
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .ul_footer {
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .github_link a:link,
+  .github_link a:visited {
+    padding: 30px;
+    background: url("photos/github_yellow.png") no-repeat center;
+  }
+
+  .github_link a:hover {
+    background: url("photos/github_blue.png") no-repeat center;
+  }
+
+  .course_link a:link,
+  .course_link a:visited {
+    padding: 30px;
+    background: url("photos/js_yellow.png") no-repeat center;
+  }
+
+  .course_link a:hover {
+    background: url("photos/js_blue.png") no-repeat center;
+  }
+
+  .year {
+    font-family: monospace;
+    font-size: 23px;
+  }
