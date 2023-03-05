@@ -53,7 +53,7 @@ function bingo(ticket, win){
 
 ##### Projects
 
-[CV](https://diantanella.github.io/rsschool-cv/)
+[CV](https://diantanella.github.io/rsschool-cv/)  
 [Momentum](https://rolling-scopes-school.github.io/diantanella-JSFEPRESCHOOL2022Q4/momentum/)
 
 ---
@@ -61,8 +61,8 @@ function bingo(ticket, win){
 ##### Education
 
 University:  
-_The Kosygin State University of Russia (on the third course)_
-Courses:
+_The Kosygin State University of Russia (on the third course)_  
+Courses:  
 _1. Java Script (author Bogdan Stashchuk) - completed  
 2. HTML Academy (HTML + CSS) - completed  
 3. FreeCodeCamp  
