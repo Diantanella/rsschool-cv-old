@@ -63,11 +63,11 @@ function bingo(ticket, win){
 University:  
 _The Kosygin State University of Russia (on the third course)_  
 Courses:  
-_1. Java Script (author Bogdan Stashchuk) - completed  
-2. HTML Academy (HTML + CSS) - completed  
-3. FreeCodeCamp  
-4. RS School Course «JavaScript/Front-end. Stage 0» - completed  
-5. RS School Course «JavaScript/Front-end. Stage 1» - in progress_
+_1. Java Script (author Bogdan Stashchuk) - completed_  
+_2. HTML Academy (HTML + CSS) - completed_  
+_3. FreeCodeCamp_  
+_4. RS School Course «JavaScript/Front-end. Stage 0» - completed_  
+_5. RS School Course «JavaScript/Front-end. Stage 1» - in progress_
 
 ---
 
