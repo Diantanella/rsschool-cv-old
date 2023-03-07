@@ -1,6 +1,6 @@
 ### Diana Novikova
 
-![my photo](/%D1%8F.jpg)
+<img src="diana.jpg" width="300">
 
 ---
 
@@ -41,36 +41,37 @@ I think that my purposefulness and my huge ability to learn will help me to beco
 ##### Code example
 
 ```
-module.exports = function towelSort (matrix) {
-  if (arguments.length === 0) {
-    return []
-  } else 
-  if (matrix.length > 0) {
-   return matrix.map((el, index) => index % 2 === 0 ? el : el.reverse()).flat();
-  } else
-  if (matrix.length === 0) {
-    return []
-  }
+
+function bingo(ticket, win){
+    if (ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win) {
+        return 'Winner!';
+    }
+     return 'Loser!';
+}
+
 ```
 
 ---
 
 ##### Projects
 
-[This CV](https://github.com/Diantanella/rsschool-cv.git)
+[CV](https://diantanella.github.io/rsschool-cv/)  
+[Momentum](https://rolling-scopes-school.github.io/diantanella-JSFEPRESCHOOL2022Q4/momentum/)
 
 ---
 
 ##### Education
 
-University:
-_The Kosygin State University of Russia (on the third course)_
-Courses:
-_1. Java Script (author Bogdan Stashchuk) - completed  
-2. HTML Academy (HTML + CSS) - completed  
-3. FreeCodeCamp  
-4. RS School Course «JavaScript/Front-end. Stage 0» - completed  
-5. RS School Course «JavaScript/Front-end. Stage 1» - in progress_
+
+University:  
+_The Kosygin State University of Russia (on the third course)_  
+Courses:  
+_1. Java Script (author Bogdan Stashchuk) - completed_  
+_2. HTML Academy (HTML + CSS) - completed_  
+_3. FreeCodeCamp_  
+_4. RS School Course «JavaScript/Front-end. Stage 0» - completed_  
+_5. RS School Course «JavaScript/Front-end. Stage 1» - in progress_
+
 
 ---
 
