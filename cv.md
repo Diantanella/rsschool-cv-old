@@ -41,12 +41,14 @@ I think that my purposefulness and my huge ability to learn will help me to beco
 ##### Code example
 
 ```
+
 function bingo(ticket, win){
     if (ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win) {
         return 'Winner!';
     }
      return 'Loser!';
 }
+
 ```
 
 ---
@@ -60,6 +62,7 @@ function bingo(ticket, win){
 
 ##### Education
 
+
 University:  
 _The Kosygin State University of Russia (on the third course)_  
 Courses:  
@@ -68,6 +71,7 @@ _2. HTML Academy (HTML + CSS) - completed_
 _3. FreeCodeCamp_  
 _4. RS School Course «JavaScript/Front-end. Stage 0» - completed_  
 _5. RS School Course «JavaScript/Front-end. Stage 1» - in progress_
+
 
 ---
 
